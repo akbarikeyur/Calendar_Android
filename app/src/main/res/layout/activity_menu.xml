@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/topBar">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:background="@android:color/transparent"
+            android:tint="@color/white"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="14dp"
+            android:text="@string/menu_screen_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp">
+
+        <LinearLayout
+            android:id="@+id/firstView"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/calBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="10sp"
+                android:text="@string/menu_calendar"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/bankH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/menu_bank"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondView"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:weightSum="2"
+            android:layout_below="@id/firstView"
+            android:layout_marginTop="20sp">
+
+            <Button
+                android:id="@+id/stockH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="10sp"
+                android:text="@string/menu_stock"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/publicH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/menu_public"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdView"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:weightSum="2"
+            android:layout_below="@id/secondView"
+            android:layout_marginTop="20sp">
+
+            <Button
+                android:id="@+id/religionH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="10sp"
+                android:text="@string/menu_religion"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_effect"
+                android:layout_weight="1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/menu_settings"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

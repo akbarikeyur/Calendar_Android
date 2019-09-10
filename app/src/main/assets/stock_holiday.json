@@ -1,0 +1,32 @@
+{
+  "2018":[
+    {"date":"Jan 01, 2018", "day":"Monday", "desc":"New Year's Day"},
+    {"date":"Jan 15, 2018", "day":"Monday", "desc":"Martin Luther King Day"},
+    {"date":"Feb 19, 2018", "day":"Monday", "desc":"Presidents' Day"},
+    {"date":"May 28, 2018", "day":"Monday", "desc":"Memorial Day"},
+    {"date":"Jul 04, 2018", "day":"Wednesday", "desc":"Independence Day"},
+    {"date":"Sep 03, 2018", "day":"Monday", "desc":"Labor Day"},
+    {"date":"Nov 22, 2018", "day":"Thursday", "desc":"Thanksgiving Day"},
+    {"date":"Dec 25, 2018", "day":"Tuesday", "desc":"Christmas"}
+  ],
+  "2019":[
+    {"date":"Jan 01, 2019", "day":"Tuesday", "desc":"New Year's Day"},
+    {"date":"Jan 21, 2019", "day":"Monday", "desc":"Martin Luther King Day"},
+    {"date":"Feb 18, 2019", "day":"Monday", "desc":"Presidents' Day"},
+    {"date":"May 27, 2019", "day":"Monday", "desc":"Memorial Day"},
+    {"date":"Jul 14, 2019", "day":"Thursday", "desc":"Independence Day"},
+    {"date":"Sep 02, 2019", "day":"Monday", "desc":"Labor Day"},
+    {"date":"Nov 28, 2019", "day":"Thursday", "desc":"Thanksgiving Day"},
+    {"date":"Dec 25, 2019", "day":"Wednesday", "desc":"Christmas"}
+  ],
+  "2020":[
+    {"date":"Jan 01, 2020", "day":"Wednesday", "desc":"New Year's Day"},
+    {"date":"Jan 20, 2020", "day":"Monday", "desc":"Martin Luther King Day"},
+    {"date":"Feb 17, 2020", "day":"Monday", "desc":"Presidents' Day"},
+    {"date":"May 25, 2020", "day":"Monday", "desc":"Memorial Day"},
+    {"date":"Jul 04, 2020", "day":"Friday", "desc":"Independence Day"},
+    {"date":"Sep 27, 2020", "day":"Monday", "desc":"Labor Day"},
+    {"date":"Nov 26, 2020", "day":"Thursday", "desc":"Thanksgiving Day"},
+    {"date":"Dec 25, 2020", "day":"Friday", "desc":"Christmas"}
+  ]
+}

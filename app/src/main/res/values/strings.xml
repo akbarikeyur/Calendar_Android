@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">USA Holidays</string>
+
+    <!-- Mainscreen -->
+    <string name="main_start">Start</string>
+
+    <!-- Menu screen -->
+    <string name="menu_screen_title">Holidays</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_bank">Bank Holiday</string>
+    <string name="menu_stock">Stock Holiday</string>
+    <string name="menu_public">Public Holiday</string>
+    <string name="menu_religion">Religion Holiday</string>
+    <string name="menu_settings">App Settings</string>
+
+    <!-- Calendar screen -->
+    <string name="calendar_screen_title">Calendar</string>
+
+    <!-- Religion screen -->
+    <string name="religion_screen_title">Religion</string>
+    <string name="buddhist_title">Buddhist</string>
+    <string name="christian_title">Christian</string>
+    <string name="hindu_title">Hindu</string>
+    <string name="islam_title">Islam</string>
+    <string name="jewish_title">Jewish</string>
+    <string name="sikh_title">Sikh</string>
+
+    <!-- Settings screen -->
+    <string name="settings_screen_title">App Settings</string>
+    <string name="in_app_product">In-App Product</string>
+    <string name="app_privacy">App Privacy</string>
+
+</resources>
